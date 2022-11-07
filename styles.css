@@ -1,3 +1,11 @@
+/* 
+Chris de Leon
+CIS 131
+Exam 3
+11/6/2022
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -46,31 +54,22 @@ html {
     column-gap: 40px;
 }
 
-footer {
-}
-
 .card {
-    border-radius: 10px;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
-    box-shadow:
-        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-        100px 100px 80px rgba(0, 0, 0, 0.07);
-    border: 1px solid rgba(0, 0, 0, 0.1)
+    flex-grow: 0;   
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #666666,
+             -20px -20px 60px #ffffff;
 }
 
 .cardimg {
     border-radius: 10px;
     margin-bottom: 10px;
     display: block;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     max-width: 200px;
     max-height: 300px;
@@ -104,7 +103,6 @@ footer {
         22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
         41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
         100px 100px 80px rgba(0, 0, 0, 0.07);
-
 }
 
 .cardBottom button:hover {
@@ -123,19 +121,20 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(255, 255, 255, 1);
     word-wrap: break-word;
-    box-shadow:
-        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-        100px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #666666,
+             -20px -20px 60px #ffffff;
 }
 
 .popup img {
     margin-top: 2%;
+    border-radius: 44px;
+    background: #ffffff;
+    box-shadow:  35px 35px 68px #e8e8e8,
+             -35px -35px 68px #ffffff;
+
 }
 
 .popup h3 {
